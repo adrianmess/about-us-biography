@@ -3,12 +3,14 @@ import { Link } from 'react-router-dom'
 
 function SecondStories(){
   return(
-    <div className="navigation">
+    <div className="storiesContainer">
       <style jsx>{`
         @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
       `}</style>
+    <div className="stories">
 
+    </div>
     </div>
   );
 }
