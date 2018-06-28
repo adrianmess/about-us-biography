@@ -1,4 +1,7 @@
 import React from 'react';
+import Biography from './Biography';
+import Header from './Header';
+
 import anthony from '../assets/anthony.jpg';
 import andrew from '../assets/anthony.jpg';
 import courtenay from '../assets/anthony.jpg';
@@ -9,7 +12,6 @@ import kris from '../assets/kris.jpg';
 import nicole from '../assets/nicole.jpg';
 import raphael from '../assets/raphael.jpg';
 import ami from '../assets/ami.jpeg';
-import adrian from '../assets/ami.jpeg';
 
 const biographyList = [
   {
@@ -74,12 +76,19 @@ const biographyList = [
   },
 ];
 
-function BioPage(){
+function BiographyList(){
 
   return(
     <div>
-
+      <Header/>
+      <hr/>
+      {BiographyList.map((biography, index) =>
+      <Biography name={biography.names}
+        title={biography.title}
+        issue={biography.issue}
+        key={index}/>
+    )}
     </div>
   );
 }
-export default BioPage;
+export default BiographyList;
