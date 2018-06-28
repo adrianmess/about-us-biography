@@ -1,16 +1,22 @@
 import React from 'react'
 import Header from './Header';
+import Router from './Router';
+import { Switch, Route } from 'react-router-dom';
 
 function App(){
   return(
     <div>
       <style jsx global>{`
-        *{
-          margin: 0;
-          padding: 0;
-        }
+          * {
+            padding: 0;
+            margin: 0;
+          }
+          *:focus{
+            outline: none;
+          }
       `}</style>
-      <Header/>
+      <Header />
+      <Router/>
     </div>
   );
 }
