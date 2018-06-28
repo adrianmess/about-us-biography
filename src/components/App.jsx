@@ -1,8 +1,16 @@
 import React from 'react'
+import Header from './Header';
 
 function App(){
   return(
-    <div>"hello world"
+    <div>
+      <style jsx global>{`
+        *{
+          margin: 0;
+          padding: 0;
+        }
+      `}</style>
+      <Header/>
     </div>
   );
 }
