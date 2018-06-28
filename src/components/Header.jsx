@@ -5,11 +5,12 @@ function Header(){
   return(
     <div className="navigation">
       <style jsx>{`
+        @import url('https://fonts.googleapis.com/css?family=Montserrat');
         .navigation{
           display: flex;
           justify-content: space-between;
           padding: 0 50px 0 50px;
-          font-family: sans-serif;
+          font-family: 'Montserrat', sans-serif;
           background: rgba(0,0,0,.25);
           height: 72px;
           align-items: center;
