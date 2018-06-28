@@ -9,6 +9,7 @@ import kris from '../assets/kris.jpg';
 import nicole from '../assets/nicole.jpg';
 import raphael from '../assets/raphael.jpg';
 import ami from '../assets/ami.jpeg';
+import adrian from '../assets/ami.jpeg';
 
 const biographyList = [
   {
@@ -77,7 +78,7 @@ function BioPage(){
 
   return(
     <div>
-      
+
     </div>
   );
 }
