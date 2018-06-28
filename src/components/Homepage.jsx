@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Header from './Header'
 function Home(){
   return(
     <div className="hero">
@@ -11,8 +11,17 @@ function Home(){
           background-position: center;
           height: 60vh;
           width: 100%;
+          margin: 0;
+        }
+        h1{
+          text-align: center;
+          font-size: 5em;
+          color: white;
+          text-shadow: 1px 1px 40px black;
+          padding-top: 15%;
         }
       `}</style>
+    <Header/>
     <h1>Innovative design</h1>
     </div>
   );

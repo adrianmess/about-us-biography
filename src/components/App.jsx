@@ -7,7 +7,7 @@ function App(){
   return(
     <div>
       <style jsx global>{`
-          * {
+          *{
             padding: 0;
             margin: 0;
           }
