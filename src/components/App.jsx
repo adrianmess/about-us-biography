@@ -15,7 +15,6 @@ function App(){
             outline: none;
           }
       `}</style>
-      <Header />
       <Router/>
     </div>
   );
