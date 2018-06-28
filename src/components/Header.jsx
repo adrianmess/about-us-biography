@@ -11,7 +11,7 @@ function Header(){
           justify-content: space-between;
           padding: 0 50px 0 50px;
           font-family: 'Montserrat', sans-serif;
-          background: rgba(0,0,0,.25);
+          background: rgba(0,0,0,);
           height: 72px;
           align-items: center;
         }
